@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+g<html>
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=hand_gesture" />
+        </head>
+    <body><nav>
+        <div class="homr">
+            
+            <h1 class="about-us" >ABOUT ME</h1>
+            </nav>
+
+        <p class="para">Welcome to my portfolio!<span class="material-symbols-outlined">
+            hand_gesture
+            </span> I am swanandi pande, I am currently pursuing a diploma in Information Technology from Government Polytechnic,
+             Nagpur.Passionate about programming, I love exploring new technologies, solving complex problems, 
+             and building innovative projects,My interests include competitive coding, web development, and software engineering. 
+             Constantly learning and improving                                                                    , I aim to create efficient and impactful solutions through code. have also created a lot of projects which you can see on my GitHub and will continue to do so. Apart
+             from front end skills, I also know some programming languages ​​like c, c++, python. A lot of work has
+             also been done on machine learning and some projects have also been created. But right now my focus is
+             on the front end because these skills give me the freedom to make anything new and innovative so that I
+             can find a solution of any problem. HTML, CSS and JavaScript are very important skills from which you
+             can learn and create a lot of new things.</p>
+             
+    <a href="index.html"></a>
+   </div> 
+   <div id="skills">
+    <div class="box">
+        <h1 class="my-skills">My Skillls</h1>
+        <div class="grid">
+           
+            
+            <div class="card-1">
+                <img class="icon-img" src="java.jpg" alt="">
+                <p class="icon-name">java</p>
+
+            </div>
+            <div class="card-1">
+                <img class="icon-img" src="c.jpg" alt="">
+                <p class="icon-name">C</p>
+            </div>
+            <div class="card-1">
+                <img class="icon-img" src="python-logo.webp" alt="">
+                <p class="icon-name">PYTHON</p>
+            </div>
+            <div class="card-1">
+                <img class="icon-img" src="c1.jpg" alt="">
+                <p class="icon-name">C++</p>
+            </div>
+           
+            
+        
+    </div>
+</div>
+</div>
+<div class="projects">
+  <h1 class="my-projects">My Projects</h1>
+  <div class="grid">
+    <div class="card-1">
+      <img class="icon-img" src="weather.png "alt="">
+        <p class="icon-name">weather app</p>
+    </div>
+    <div class="card-1">
+      <img class="icon-img" src="prj1.png" alt="">
+      <p class="icon-name">lab attendance tracking</p>
+    </div>
+    
+  
+  </div>
+</div>
+</body>
+<style>
+.projects {
+  margin-top: -230px;
+  text-align: left;
+  color: white;
+  margin-left:20px;
+  font-size:  2vw;
+  padding-top: 50px;;
+}
+
+.my-projects {
+  font-size: 2.7vw;
+  letter-spacing: 1px;
+  margin-bottom: 2vw;
+  border-bottom: 1px solid #514f4f;
+  color: #ff00e3;
+}
+
+.my-projects::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 37.84vw;
+  height: 3px;
+  background: #ff00e3;
+}
+
+.projects .grid {
+  display: grid;
+  grid-gap: 3vw;
+  grid-template-columns: auto auto auto auto;
+  justify-content: left;
+}
+
+.projects .card-1 {
+  background: transparent;
+  height: 17vw;
+  width: 19vw;
+  display: grid;
+  justify-content: left baseline;
+  align-items: left baseline;
+  border: 0.24vw solid #ff00e3;
+  transition: transform 0.5s ease-out;
+  box-shadow: 0 0 1.22vw #ff00e3;
+  border-radius: 5px;
+}
+
+.projects .card-1:hover {
+  transform: scale(1.1);
+}
+
+.projects .icon-img {
+  width: 19vw;
+  height: 17vw;
+}
+
+.projects .icon-name {
+  color: var(--primary-color);
+  font-size: 1.5vw;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  color:#ff00e3;
+}
+</style>
+
+
+   <style>
+    nav{
+      background:black;
+      color:#ff00e3;
+      display:flex;
+      height: 50px;
+      align-items:left;
+      padding-top: 0;
+      padding-left:5px;
+      padding-bottom:5px;
+      font-size: larger;
+      
+    }
+    body{
+     background-color:black;
+     text-align:left;
+     justify-content: space-between;
+     
+    }
+    .para{
+        color:white;
+    }
+    #skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70vh;
+  color:white;
+ 
+
+}
+.my-skills {
+  color: var(--secondary-color);
+  font-size: 2.7vw;
+  letter-spacing: 1px;
+  margin-bottom:  3.9vw;
+  border-bottom: 1px solid #514f4f;
+  color:#ff00e3;
+  margin-left:-1vw;
+}
+
+.my-skills::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 37.84vw;
+  height: 3px;
+  background: #ff00e3;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 3vw;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card-1 {
+  background: transparent;
+  height: 7vw;
+  width: 7vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 0.24vw solid #ff00e3;
+  transition: transform .5s ease-out;
+  -moz-box-shadow: 0 0 20px #ff00e3;
+  -webkit-box-shadow: 0 0 20px #ff00e3;
+  box-shadow: 0 0 1.22vw #ff00e3;
+  border-radius: 5px;
+}
+
+.card-1:hover {
+  transform: scale(1.1);
+}
+
+.icon-img {
+  width: 7vw;
+  height:7vw
+ 
+}
+
+.icon-name {
+  color: var(--primary-color);
+  font-size: 1.5vw;
+  text-align: bottom;
+  font-family: 'Poppins', sans-serif;
+  color:#ff00e3
+}
+
+.box {
+  margin-left: -450px;
+  margin-top:-250px 
+}
+.span{
+  outline-color:#ff00e3;
+}
+   
+   </style>
+   
+</html>
+
+
